@@ -23,7 +23,7 @@ const QString AWS_DOWNLOAD_VERSIONS("https://s3.amazonaws.com/Minecraft.Download
 const QString RESOURCE_BASE("https://resources.download.minecraft.net/");
 const QString LIBRARY_BASE("https://libraries.minecraft.net/");
 const QString SKINS_BASE("https://crafatar.com/skins/");
-const QString AUTH_BASE("https://authserver.mojang.com/");
+const QString AUTH_BASE("https://127.0.0.1/");
 const QString MOJANG_STATUS_URL("https://status.mojang.com/check");
 const QString IMGUR_BASE_URL("https://api.imgur.com/3/");
 const QString FMLLIBS_OUR_BASE_URL("https://files.multimc.org/fmllibs/");
