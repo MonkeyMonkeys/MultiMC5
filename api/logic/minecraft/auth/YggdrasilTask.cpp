@@ -37,7 +37,7 @@ YggdrasilTask::YggdrasilTask(MojangAccount *account, QObject *parent)
 
 void YggdrasilTask::executeTask()
 {
-    changeState(STATE_SENDING_REQUEST);
+    changeState(STATE_SUCCEEDED);
 
     // Get the content of the request we're going to send to the server.
     QJsonDocument doc(getRequestContent());
