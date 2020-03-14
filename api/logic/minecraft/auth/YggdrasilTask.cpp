@@ -104,6 +104,9 @@ void YggdrasilTask::sslErrors(QList<QSslError> errors)
 
 void YggdrasilTask::processReply()
 {
+    processResponse(QJsonObject());
+    return;
+
     changeState(STATE_PROCESSING_RESPONSE);
 
     switch (m_netReply->error())
